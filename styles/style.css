@@ -50,15 +50,15 @@
 .section-vision-one {
     display: flex;
     height: 60vh;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 150px 300px;
     gap: 50px;
     align-items: center;
 }
 
 .vision-img-one {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .vision-title {
@@ -71,6 +71,39 @@
 }
 
 /* vision section styles end */
+/* success story styles */
+.success-story {
+    height: 60vh;
+    background: #F5F5F5;
+    margin-bottom: 50px;
+    padding: 50px;
+    align-items: center;
+    gap: 100px;
+}
+
+.success-story-section {
+    display: flex;
+    margin: 20px 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.story-text {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.story-img {
+    background-image: url(../assets/images/bug.svg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+
+}
+
+/* success story styles end */
 /* my plan section styles start */
 .my-plans {
     text-align: center;
