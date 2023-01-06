@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.descriptions {
+    padding: 10px 0;
+    color: #737272;
+}
+
+/* banner section styles start */
+
+.banner-section {
+    background-image: url(../assets/images/banner2.png);
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+
+.banner-texts {
+    margin-left: 50%;
+    margin-right: 150px;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    border: 0;
+    color: #fff;
+    background: #F15B22;
+}
+
+/* banner section styles end */
+/* vision section styles start */
+.section-vision-one {
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    margin: 150px 300px;
+    gap: 50px;
+    align-items: center;
+}
+
+.vision-img-one {
+    width: 500px;
+    height: 500px;
+}
+
+.vision-title {
+    margin: 20px 0;
+}
+
+.vision-texts ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+/* vision section styles end */
+/* my plan section styles start */
+.my-plans {
+    text-align: center;
+}
+
+.plan-title {
+    margin-bottom: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plan {
+    margin: 0 30px;
+}
+
+.icon-title {
+    margin: 10px 0;
+}
+
+/* my plan section styles end */
+/* call now styles start */
+.call-section {
+    width: 900px;
+    height: 500;
+    background-image: url(../assets/images/watch.png), linear-gradient(to right, rgba(0, 0, 0, 255), rgba(225, 24, 24, 0.512));
+    ;
+    background-blend-mode: overlay;
+    margin: 20px auto;
+    background-size: cover;
+    padding: 100px 20px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.class-title {
+    color: #fff;
+}
+
+.call-btn {
+    border: 0;
+    color: #F15B22;
+}
+
+/* call now styles end */
+/* footer section styles start */
+.footers {
+    background: #151414;
+    color: #fff;
+}
+
+.all-footer {
+    display: flex;
+    padding: 150px 200px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.future {
+    width: 50%;
+}
+
+.future-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.icons {
+    display: flex;
+
+}
+
+.icon {
+    padding: 10px 10px;
+}
+
+.btn-email {
+    background: none;
+    border: 1px solid #fff;
+}
+
+.btn-sub {
+    border: none;
+    color: #F15B22;
+}
+
+/* footer section styles end */
