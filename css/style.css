@@ -15,30 +15,34 @@
 
 .descriptions {
     padding: 10px 0;
-    color: #737272;
     text-align: justify;
 }
 
 /* banner section styles start */
 
 .banner-section {
-    background-image: url(../assets/images/banner2.png);
+    background-image: url(../assets/images/banner3.png);
     height: 100vh;
     background-size: cover;
     align-items: center;
     display: flex;
+    background-repeat: no-repeat;
 }
 
 .banner-texts {
-    margin-left: 40%;
-    margin-right: 150px;
-    text-align: right;
+    margin-right: 40%;
+    margin-left: 210px;
+    text-align: left;
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 65px;
     margin-bottom: 20px;
+}
+
+.banner-descriptions {
+    color: #fff;
 }
 
 .btn-primary {
@@ -202,6 +206,10 @@
 .subscribe-title {
     font-weight: 600;
     font-size: 25px;
+}
+
+.footer-descriptions {
+    color: #737272;
 }
 
 .icons {
