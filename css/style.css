@@ -113,7 +113,7 @@
     height: 400px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 50px;
+    margin-left: 65px;
     margin-top: 81px;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .icon:hover {
-    color: red;
+    color: #737272;
 }
 
 .icon i {
@@ -235,6 +235,11 @@
 .btn-sub:hover {
     border: 1px solid #fff;
     background: none;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 /* footer section styles end */
