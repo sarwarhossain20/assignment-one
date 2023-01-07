@@ -197,6 +197,14 @@
     padding: 10px 10px;
 }
 
+.icon:hover {
+    color: red;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
 .btn-email {
     background: none;
     border: 1px solid #fff;
