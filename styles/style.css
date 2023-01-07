@@ -15,6 +15,7 @@
 .descriptions {
     padding: 10px 0;
     color: #737272;
+    text-align: justify;
 }
 
 /* banner section styles start */
@@ -122,6 +123,11 @@
 
 .plan {
     margin: 0 30px;
+}
+
+.plan img {
+    height: 100px;
+    width: 100px;
 }
 
 .icon-title {
