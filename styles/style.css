@@ -47,6 +47,12 @@
     background: #F15B22;
 }
 
+.btn-primary:hover {
+    border: 1px solid #F15B22;
+    color: #F15B22;
+    background: none;
+}
+
 /* banner section styles end */
 /* vision section styles start */
 .section-vision-one {
@@ -224,6 +230,11 @@
 .btn-sub {
     border: none;
     color: #F15B22;
+}
+
+.btn-sub:hover {
+    border: 1px solid #fff;
+    background: none;
 }
 
 /* footer section styles end */
